@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+.crud-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .crud-table th, .crud-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  .crud-table th {
+    background-color: #f2f2f2;
+  }
+  .crud-table tr:nth-child(even){background-color: #f2f2f2;}
+  .crud-table tr:hover {background-color: #ddd;}
+
+h1 {
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#users-list {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.user-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.user-item:last-child {
+    border-bottom: none;
+}
+
+.user-name, .user-id, .user-points {
+    font-size: 16px;
+    color: #333;
+}
+
+button {
+    margin: 5px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
